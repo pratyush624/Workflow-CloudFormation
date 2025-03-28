@@ -3,4 +3,4 @@ Resources:
   MyS3Bucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      BucketName: "my-first-cloudformation-bucket-pratyush"  # Change this name to something unique
+      BucketName: "my-first-cloudformation-bucket-using-github-actions-pratyush"  # Change this name to something unique
