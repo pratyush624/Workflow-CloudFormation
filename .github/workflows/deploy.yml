@@ -21,4 +21,4 @@ jobs:
 
       - name: Create CloudFormation Stack
         run: |
-          aws cloudformation create-stack --stack-name my-second-stack --template-body file://s3-bucket.yaml
+          aws cloudformation create-stack --stack-name my-githubactions-stack --template-body file://s3-bucket.yaml
